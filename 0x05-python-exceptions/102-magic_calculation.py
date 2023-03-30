@@ -10,3 +10,4 @@ def magic_calculation(a, b):
             result = a + b
             break
     return result
+
