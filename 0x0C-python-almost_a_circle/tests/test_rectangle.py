@@ -151,7 +151,7 @@ class TestRectangle_width(unittest.TestCase):
 
     def test_frozenset_width(self):
         with self.assertRaisesRegex(TypeError, "width must be an integer"):
-            Rectangle(frozenset({1, 2, 3, 1}), 2)
+            Rectangle(frozenset({1, 2, 3}, 2))
 
     def test_range_width(self):
         with self.assertRaisesRegex(TypeError, "width must be an integer"):
